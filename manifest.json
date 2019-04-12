@@ -1,0 +1,10 @@
+{
+  "name": "Desktop Wikipedia Redirect",
+  "description": "Redirect mobile Wikipedia pages to desktop pages",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "background": {
+    "scripts": ["redirect.js"]
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "*m.wikipedia.org/*"]
+}
